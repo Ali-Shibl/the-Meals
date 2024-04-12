@@ -1,0 +1,13 @@
+.btn_mood{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--bg-mood);
+    color:var(--moon-dark) ;
+    border: dashed 1px var(--moon-dark);
+}

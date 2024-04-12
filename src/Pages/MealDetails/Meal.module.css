@@ -1,0 +1,20 @@
+.img{
+    object-fit: contain;
+    aspect-ratio: 1/1;
+    width: 100%;
+    min-width:100% ;
+    border-radius: 10px;
+}
+.text_justify{
+    text-align: justify;
+}
+.span{
+    font-weight: bolder;
+    color: #F6931C;
+}
+@media (max-width:768px) {
+    .img{
+        
+        width: 80%;
+    }
+}
