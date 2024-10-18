@@ -1,0 +1,13 @@
+.imageCat{
+    object-fit: contain;
+    aspect-ratio: 1/1;
+    width: 85%;
+}
+.img_cat{
+    transition: .5s;
+    filter: drop-shadow(1px 16px 3px #3a2307bd);
+  }
+  .cat:hover .img_cat{
+    transform: scale(1.15);
+  }
+  
